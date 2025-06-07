@@ -4,6 +4,10 @@ This is a Python Flask-based web application that allows users to upload brain M
 
 the project should run in a venv via the command: python -m venv NameOfYourVenv
 
+then install the requirements file via: pip install -r requirements
+
+its nessecary to run the app in a verion python with 3.10.x
+
 ## 🚀 Features
 
 - Upload MRI scan images (`.jpg`, `.png`)
