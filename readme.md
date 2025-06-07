@@ -12,13 +12,12 @@ This is a Python Flask-based web application that allows users to upload brain M
 ## 🧠 Tech Stack
 
 - Python 🐍
-- Flask (Web Framework)
+- FastAPI (Web Framework)
 - HTML5 (Templates)
 - Trained ML Model (e.g., CNN)
 - OpenCV or PIL for image processing
 
 ## 📂 Project Structure
-
 
 Tumor_detection/
 
@@ -29,10 +28,6 @@ Tumor_detection/
 │   └── index.html       # Web interface
 
 ├── uploads/             # Uploaded images
-
-├── Tumor/             # Virtual environment (ignored)
-
-├──  **pycache** /         # Python cache (ignored)
 
 ├── .gitignore
 
