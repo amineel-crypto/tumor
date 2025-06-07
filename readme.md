@@ -6,6 +6,10 @@ the project should run in a venv via the command: python -m venv NameOfYourVenv
 
 then install the requirements file via: pip install -r requirements
 
+don't forget to run the web app with :
+
+uvicorn main:app --reload
+
 its nessecary to run the app in a verion python with 3.10.x
 
 ## 🚀 Features
