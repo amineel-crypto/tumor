@@ -1,6 +1,6 @@
 # 🧠 Tumor Detection Web App
 
-This is a Python Flask-based web application that allows users to upload brain MRI scans and detect the presence of a tumor using a trained machine learning model.
+This is a Python FastAPI-based web application that allows users to upload brain MRI scans and detect the presence of a tumor using a trained machine learning model.
 
 the project should run in a venv via the command: python -m venv NameOfYourVenv
 
