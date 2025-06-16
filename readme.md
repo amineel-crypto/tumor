@@ -3,8 +3,11 @@
 This is a Python FastAPI-based web application that allows users to upload brain MRI scans and detect the presence of a tumor using a trained machine learning model.
 
 the project should run in a venv via the command: python -m venv NameOfYourVenv
+
 don't forget to activate the virtaul env with: NameOfYourVenv/Scripts/activate #in Windows
+
 source myenv/bin/activate #in Linux
+
 then install the requirements file via: pip install -r requirements
 
 don't forget to run the web app with :
