@@ -2,7 +2,6 @@
 
 ![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
 ![Framework](https://img.shields.io/badge/Framework-FastAPI-green.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 A web application built with Python and FastAPI to detect brain tumors from MRI scans using a Convolutional Neural Network (CNN). The interface allows users to upload an image and receive a real-time prediction.
 
@@ -83,7 +82,3 @@ Follow these steps to get the project running on your local machine.
 
 2.  **Open your web browser** and navigate to:
     [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
-## 📄 License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
