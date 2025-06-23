@@ -8,64 +8,11 @@ A web application built with Python and FastAPI to detect brain tumors from MRI 
 
 ## 📸 Screenshot
 
-![App Screenshot](./mri-brain-tumor-detection-web-app.png)
-*(A screenshot of the application's user interface. It's highly recommended to add a visual preview of your project here.)*
+![App Screenshot](./mri-brain-tumor-detection-web-app.png.png)
 
 ## 📂 Project Structure
 
 The repository is organized with a clean and scalable structure, separating logic, models, and presentation layers.
-Tumor_Detection/
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── main.py              # FastAPI application entry point
-├── models/
-│   └── tumor_model.h5   # The trained Keras/TF model
-├── static/
-│   └── style.css        # CSS for styling the web interface
-└── templates/
-    └── index.html       # Jinja2 template for the web UI
-Of course! That's a great idea. Showing the project's structure is an excellent way to demonstrate your organizational skills and planning.
-
-We will replace the "Demo" section with a "Screenshot" section (which is more accurate for a static image) and give the "Project Structure" its own dedicated, prominent section right at the top. This is a very professional and clean way to present your work.
-
-Here is the complete, updated `README.md` file ready for you to copy and paste.
-
----
-
-### **Complete `README.md` File**
-
-```markdown
-# 🧠 Brain Tumor Detection Web App
-
-![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
-![Framework](https://img.shields.io/badge/Framework-FastAPI-green.svg)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-
-A web application built with Python and FastAPI to detect brain tumors from MRI scans using a Convolutional Neural Network (CNN). The interface allows users to upload an image and receive a real-time prediction.
-
-## 📸 Screenshot
-
-![App Screenshot](./screenshot.png)
-*(A screenshot of the application's user interface. It's highly recommended to add a visual preview of your project here.)*
-
-## 📂 Project Structure
-
-The repository is organized with a clean and scalable structure, separating logic, models, and presentation layers.
-
-```
-Tumor_Detection/
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── main.py              # FastAPI application entry point
-├── models/
-│   └── tumor_model.h5   # The trained Keras/TF model
-├── static/
-│   └── style.css        # CSS for styling the web interface
-└── templates/
-    └── index.html       # Jinja2 template for the web UI
-
 
 ## 🚀 Features
 
@@ -140,4 +87,3 @@ Follow these steps to get the project running on your local machine.
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-```
