@@ -3,15 +3,27 @@
 ![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)
 ![Framework](https://img.shields.io/badge/Framework-FastAPI-green.svg)
 
-A web application built with Python and FastAPI to detect brain tumors from MRI scans using a Convolutional Neural Network (CNN). The interface allows users to upload an image and receive a real-time prediction.
+An interactive web application built with Python and FastAPI to detect brain tumors from MRI scans using a Convolutional Neural Network (CNN). The interface allows users to upload an image and receive a real-time prediction.
 
 ## 📸 Screenshot
 
-![App Screenshot](./mri-brain-tumor-detection-web-app.png.png)
+![App Screenshot](./mri-brain-tumor-detection-web-app.png)
+
 
 ## 📂 Project Structure
 
 The repository is organized with a clean and scalable structure, separating logic, models, and presentation layers.
+Tumor_Detection/
+├── .gitignore
+├── README.md
+├── requirements.txt
+├── main.py              # FastAPI application entry point
+├── models/
+│   └── tumor_model.h5   # The trained Keras/TF model
+├── static/
+│   └── style.css        # CSS for styling the web interface
+└── templates/
+    └── index.html       # Jinja2 template for the web UI
 
 ## 🚀 Features
 
@@ -82,3 +94,4 @@ Follow these steps to get the project running on your local machine.
 
 2.  **Open your web browser** and navigate to:
     [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
