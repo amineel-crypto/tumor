@@ -13,6 +13,7 @@ An interactive web application built with Python and FastAPI to detect brain tum
 ## 📂 Project Structure
 
 The repository is organized with a clean and scalable structure, separating logic, models, and presentation layers.
+```bash
 Tumor_Detection/
 ├── .gitignore
 ├── README.md
@@ -24,7 +25,7 @@ Tumor_Detection/
 │   └── style.css        # CSS for styling the web interface
 └── templates/
     └── index.html       # Jinja2 template for the web UI
-
+```
 ## 🚀 Features
 
 -   **Image Upload:** Supports uploading MRI scan images (`.jpg`, `.png`, `.jpeg`).
